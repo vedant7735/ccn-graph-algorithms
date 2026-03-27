@@ -1,0 +1,455 @@
+1 -> 2
+ Path 1: [1, 2] cost=4
+ Path 2: [1, 3, 2] cost=10
+ Path 3: [1, 8, 7, 5, 4, 2] cost=35
+
+1 -> 3
+ Path 1: [1, 3] cost=7
+ Path 2: [1, 2, 3] cost=7
+ Path 3: [1, 8, 7, 5, 4, 3] cost=36
+
+1 -> 4
+ Path 1: [1, 2, 4] cost=9
+ Path 2: [1, 3, 4] cost=13
+ Path 3: [1, 8, 7, 5, 4] cost=30
+
+1 -> 5
+ Path 1: [1, 2, 4, 5] cost=12
+ Path 2: [1, 3, 4, 7, 5] cost=27
+ Path 3: [1, 8, 7, 6, 5] cost=29
+
+1 -> 6
+ Path 1: [1, 2, 4, 5, 6] cost=16
+ Path 2: [1, 3, 4, 7, 6] cost=25
+ Path 3: [1, 8, 11, 6] cost=37
+
+1 -> 7
+ Path 1: [1, 2, 4, 5, 7] cost=17
+ Path 2: [1, 3, 4, 7] cost=22
+ Path 3: [1, 8, 7] cost=22
+
+1 -> 8
+ Path 1: [1, 8] cost=18
+ Path 2: [1, 2, 4, 5, 7, 8] cost=21
+ Path 3: [1, 3, 4, 9, 8] cost=27
+
+1 -> 9
+ Path 1: [1, 2, 4, 9] cost=20
+ Path 2: [1, 8, 9] cost=21
+ Path 3: [1, 3, 10, 9] cost=26
+
+1 -> 10
+ Path 1: [1, 3, 10] cost=22
+ Path 2: [1, 2, 4, 9, 10] cost=24
+ Path 3: [1, 8, 7, 10] cost=30
+
+1 -> 11
+ Path 1: [1, 2, 11] cost=24
+ Path 2: [1, 8, 11] cost=25
+ Path 3: [1, 3, 10, 11] cost=27
+
+1 -> 12
+ Path 1: [1, 2, 4, 9, 12] cost=26
+ Path 2: [1, 8, 11, 12] cost=28
+ Path 3: [1, 3, 4, 5, 12] cost=32
+
+1 -> 13
+ Path 1: [1, 2, 4, 9, 12, 13] cost=28
+ Path 2: [1, 8, 11, 13] cost=30
+ Path 3: [1, 3, 10, 11, 12, 14, 13] cost=41
+
+1 -> 14
+ Path 1: [1, 2, 4, 9, 12, 13, 14] cost=32
+ Path 2: [1, 8, 11, 12, 14] cost=35
+ Path 3: [1, 3, 4, 5, 6, 14] cost=39
+
+2 -> 3
+ Path 1: [2, 3] cost=3
+ Path 2: [2, 1, 3] cost=11
+ Path 3: [2, 4, 3] cost=11
+
+2 -> 4
+ Path 1: [2, 4] cost=5
+ Path 2: [2, 3, 4] cost=9
+ Path 3: [2, 1, 8, 7, 5, 4] cost=34
+
+2 -> 5
+ Path 1: [2, 4, 5] cost=8
+ Path 2: [2, 3, 4, 7, 5] cost=23
+ Path 3: [2, 1, 8, 7, 6, 5] cost=33
+
+2 -> 6
+ Path 1: [2, 4, 5, 6] cost=12
+ Path 2: [2, 3, 4, 7, 6] cost=21
+ Path 3: [2, 11, 6] cost=32
+
+2 -> 7
+ Path 1: [2, 4, 5, 7] cost=13
+ Path 2: [2, 3, 4, 7] cost=18
+ Path 3: [2, 1, 8, 7] cost=26
+
+2 -> 8
+ Path 1: [2, 4, 5, 7, 8] cost=17
+ Path 2: [2, 1, 8] cost=22
+ Path 3: [2, 3, 4, 9, 8] cost=23
+
+2 -> 9
+ Path 1: [2, 4, 9] cost=16
+ Path 2: [2, 3, 10, 9] cost=22
+ Path 3: [2, 1, 8, 9] cost=25
+
+2 -> 10
+ Path 1: [2, 3, 10] cost=18
+ Path 2: [2, 4, 9, 10] cost=20
+ Path 3: [2, 11, 10] cost=25
+
+2 -> 11
+ Path 1: [2, 11] cost=20
+ Path 2: [2, 3, 10, 11] cost=23
+ Path 3: [2, 4, 5, 6, 11] cost=24
+
+2 -> 12
+ Path 1: [2, 4, 9, 12] cost=22
+ Path 2: [2, 11, 12] cost=23
+ Path 3: [2, 3, 4, 5, 12] cost=28
+
+2 -> 13
+ Path 1: [2, 4, 9, 12, 13] cost=24
+ Path 2: [2, 11, 13] cost=25
+ Path 3: [2, 3, 10, 11, 12, 14, 13] cost=37
+
+2 -> 14
+ Path 1: [2, 4, 9, 12, 13, 14] cost=28
+ Path 2: [2, 11, 12, 14] cost=30
+ Path 3: [2, 3, 4, 5, 6, 14] cost=35
+
+3 -> 4
+ Path 1: [3, 4] cost=6
+ Path 2: [3, 2, 4] cost=8
+ Path 3: [3, 10, 9, 4] cost=30
+
+3 -> 5
+ Path 1: [3, 4, 5] cost=9
+ Path 2: [3, 2, 4, 7, 5] cost=22
+ Path 3: [3, 10, 7, 6, 5] cost=30
+
+3 -> 6
+ Path 1: [3, 4, 5, 6] cost=13
+ Path 2: [3, 2, 4, 7, 6] cost=20
+ Path 3: [3, 10, 11, 6] cost=32
+
+3 -> 7
+ Path 1: [3, 4, 5, 7] cost=14
+ Path 2: [3, 2, 4, 7] cost=17
+ Path 3: [3, 10, 7] cost=23
+
+3 -> 8
+ Path 1: [3, 4, 5, 7, 8] cost=18
+ Path 2: [3, 2, 4, 9, 8] cost=22
+ Path 3: [3, 1, 8] cost=25
+
+3 -> 9
+ Path 1: [3, 4, 9] cost=17
+ Path 2: [3, 10, 9] cost=19
+ Path 3: [3, 2, 4, 5, 7, 8, 9] cost=23
+
+3 -> 10
+ Path 1: [3, 10] cost=15
+ Path 2: [3, 4, 9, 10] cost=21
+ Path 3: [3, 2, 4, 5, 7, 10] cost=24
+
+3 -> 11
+ Path 1: [3, 10, 11] cost=20
+ Path 2: [3, 2, 11] cost=23
+ Path 3: [3, 4, 5, 6, 11] cost=25
+
+3 -> 12
+ Path 1: [3, 4, 9, 12] cost=23
+ Path 2: [3, 10, 11, 12] cost=23
+ Path 3: [3, 2, 4, 5, 12] cost=27
+
+3 -> 13
+ Path 1: [3, 10, 11, 13] cost=25
+ Path 2: [3, 4, 9, 12, 13] cost=25
+ Path 3: [3, 2, 11, 12, 14, 13] cost=37
+
+3 -> 14
+ Path 1: [3, 10, 11, 13, 14] cost=29
+ Path 2: [3, 4, 9, 12, 14] cost=30
+ Path 3: [3, 2, 4, 5, 6, 14] cost=34
+
+4 -> 5
+ Path 1: [4, 5] cost=3
+ Path 2: [4, 7, 5] cost=14
+ Path 3: [4, 9, 8, 7, 6, 5] cost=25
+
+4 -> 6
+ Path 1: [4, 5, 6] cost=7
+ Path 2: [4, 7, 6] cost=12
+ Path 3: [4, 9, 10, 11, 6] cost=32
+
+4 -> 7
+ Path 1: [4, 5, 7] cost=8
+ Path 2: [4, 7] cost=9
+ Path 3: [4, 9, 8, 7] cost=18
+
+4 -> 8
+ Path 1: [4, 5, 7, 8] cost=12
+ Path 2: [4, 9, 8] cost=14
+ Path 3: [4, 2, 1, 8] cost=27
+
+4 -> 9
+ Path 1: [4, 9] cost=11
+ Path 2: [4, 5, 7, 8, 9] cost=15
+ Path 3: [4, 7, 10, 9] cost=21
+
+4 -> 10
+ Path 1: [4, 9, 10] cost=15
+ Path 2: [4, 5, 7, 10] cost=16
+ Path 3: [4, 3, 10] cost=21
+
+4 -> 11
+ Path 1: [4, 5, 6, 11] cost=19
+ Path 2: [4, 7, 8, 11] cost=20
+ Path 3: [4, 9, 10, 11] cost=20
+
+4 -> 12
+ Path 1: [4, 9, 12] cost=17
+ Path 2: [4, 5, 12] cost=19
+ Path 3: [4, 7, 8, 11, 12] cost=23
+
+4 -> 13
+ Path 1: [4, 9, 12, 13] cost=19
+ Path 2: [4, 5, 6, 11, 13] cost=24
+ Path 3: [4, 7, 8, 11, 12, 14, 13] cost=34
+
+4 -> 14
+ Path 1: [4, 9, 12, 13, 14] cost=23
+ Path 2: [4, 5, 6, 14] cost=26
+ Path 3: [4, 7, 8, 11, 12, 14] cost=30
+
+5 -> 6
+ Path 1: [5, 6] cost=4
+ Path 2: [5, 7, 6] cost=8
+ Path 3: [5, 12, 11, 6] cost=31
+
+5 -> 7
+ Path 1: [5, 7] cost=5
+ Path 2: [5, 6, 7] cost=7
+ Path 3: [5, 4, 7] cost=12
+
+5 -> 8
+ Path 1: [5, 7, 8] cost=9
+ Path 2: [5, 4, 9, 8] cost=17
+ Path 3: [5, 6, 11, 8] cost=23
+
+5 -> 9
+ Path 1: [5, 7, 8, 9] cost=12
+ Path 2: [5, 4, 9] cost=14
+ Path 3: [5, 6, 7, 10, 9] cost=19
+
+5 -> 10
+ Path 1: [5, 7, 10] cost=13
+ Path 2: [5, 4, 9, 10] cost=18
+ Path 3: [5, 6, 11, 10] cost=21
+
+5 -> 11
+ Path 1: [5, 6, 11] cost=16
+ Path 2: [5, 7, 8, 11] cost=16
+ Path 3: [5, 12, 11] cost=19
+
+5 -> 12
+ Path 1: [5, 12] cost=16
+ Path 2: [5, 7, 8, 9, 12] cost=18
+ Path 3: [5, 6, 11, 12] cost=19
+
+5 -> 13
+ Path 1: [5, 12, 13] cost=18
+ Path 2: [5, 6, 11, 13] cost=21
+ Path 3: [5, 7, 8, 9, 12, 14, 13] cost=29
+
+5 -> 14
+ Path 1: [5, 12, 13, 14] cost=22
+ Path 2: [5, 6, 14] cost=23
+ Path 3: [5, 7, 8, 9, 12, 14] cost=25
+
+6 -> 7
+ Path 1: [6, 7] cost=3
+ Path 2: [6, 5, 7] cost=9
+ Path 3: [6, 11, 8, 7] cost=23
+
+6 -> 8
+ Path 1: [6, 7, 8] cost=7
+ Path 2: [6, 11, 8] cost=19
+ Path 3: [6, 5, 4, 9, 8] cost=21
+
+6 -> 9
+ Path 1: [6, 7, 8, 9] cost=10
+ Path 2: [6, 5, 4, 9] cost=18
+ Path 3: [6, 11, 12, 9] cost=21
+
+6 -> 10
+ Path 1: [6, 7, 10] cost=11
+ Path 2: [6, 11, 10] cost=17
+ Path 3: [6, 5, 7, 8, 9, 10] cost=20
+
+6 -> 11
+ Path 1: [6, 11] cost=12
+ Path 2: [6, 7, 8, 11] cost=14
+ Path 3: [6, 5, 7, 10, 11] cost=22
+
+6 -> 12
+ Path 1: [6, 11, 12] cost=15
+ Path 2: [6, 7, 8, 9, 12] cost=16
+ Path 3: [6, 5, 12] cost=20
+
+6 -> 13
+ Path 1: [6, 11, 13] cost=17
+ Path 2: [6, 7, 8, 9, 12, 13] cost=18
+ Path 3: [6, 14, 13] cost=23
+
+6 -> 14
+ Path 1: [6, 14] cost=19
+ Path 2: [6, 11, 13, 14] cost=21
+ Path 3: [6, 7, 8, 9, 12, 14] cost=23
+
+7 -> 8
+ Path 1: [7, 8] cost=4
+ Path 2: [7, 10, 9, 8] cost=15
+ Path 3: [7, 6, 11, 8] cost=22
+
+7 -> 9
+ Path 1: [7, 8, 9] cost=7
+ Path 2: [7, 10, 9] cost=12
+ Path 3: [7, 5, 4, 9] cost=19
+
+7 -> 10
+ Path 1: [7, 10] cost=8
+ Path 2: [7, 8, 9, 10] cost=11
+ Path 3: [7, 6, 11, 10] cost=20
+
+7 -> 11
+ Path 1: [7, 8, 11] cost=11
+ Path 2: [7, 10, 11] cost=13
+ Path 3: [7, 6, 11] cost=15
+
+7 -> 12
+ Path 1: [7, 8, 9, 12] cost=13
+ Path 2: [7, 10, 11, 12] cost=16
+ Path 3: [7, 5, 12] cost=21
+
+7 -> 13
+ Path 1: [7, 8, 9, 12, 13] cost=15
+ Path 2: [7, 10, 11, 13] cost=18
+ Path 3: [7, 6, 14, 13] cost=26
+
+7 -> 14
+ Path 1: [7, 8, 9, 12, 13, 14] cost=19
+ Path 2: [7, 6, 14] cost=22
+ Path 3: [7, 10, 11, 12, 14] cost=23
+
+8 -> 9
+ Path 1: [8, 9] cost=3
+ Path 2: [8, 11, 12, 9] cost=16
+ Path 3: [8, 7, 10, 9] cost=16
+
+8 -> 10
+ Path 1: [8, 9, 10] cost=7
+ Path 2: [8, 7, 10] cost=12
+ Path 3: [8, 11, 10] cost=12
+
+8 -> 11
+ Path 1: [8, 11] cost=7
+ Path 2: [8, 9, 10, 11] cost=12
+ Path 3: [8, 7, 6, 11] cost=19
+
+8 -> 12
+ Path 1: [8, 9, 12] cost=9
+ Path 2: [8, 11, 12] cost=10
+ Path 3: [8, 7, 10, 11, 13, 12] cost=24
+
+8 -> 13
+ Path 1: [8, 9, 12, 13] cost=11
+ Path 2: [8, 11, 13] cost=12
+ Path 3: [8, 7, 6, 14, 13] cost=30
+
+8 -> 14
+ Path 1: [8, 9, 12, 13, 14] cost=15
+ Path 2: [8, 11, 12, 14] cost=17
+ Path 3: [8, 7, 6, 14] cost=26
+
+9 -> 10
+ Path 1: [9, 10] cost=4
+ Path 2: [9, 12, 11, 10] cost=14
+ Path 3: [9, 8, 7, 10] cost=15
+
+9 -> 11
+ Path 1: [9, 10, 11] cost=9
+ Path 2: [9, 12, 11] cost=9
+ Path 3: [9, 8, 11] cost=10
+
+9 -> 12
+ Path 1: [9, 12] cost=6
+ Path 2: [9, 10, 11, 12] cost=12
+ Path 3: [9, 8, 11, 13, 12] cost=17
+
+9 -> 13
+ Path 1: [9, 12, 13] cost=8
+ Path 2: [9, 10, 11, 13] cost=14
+ Path 3: [9, 8, 11, 12, 14, 13] cost=24
+
+9 -> 14
+ Path 1: [9, 12, 13, 14] cost=12
+ Path 2: [9, 10, 11, 12, 14] cost=19
+ Path 3: [9, 8, 7, 6, 14] cost=29
+
+10 -> 11
+ Path 1: [10, 11] cost=5
+ Path 2: [10, 9, 12, 11] cost=13
+ Path 3: [10, 7, 8, 11] cost=19
+
+10 -> 12
+ Path 1: [10, 11, 12] cost=8
+ Path 2: [10, 9, 12] cost=10
+ Path 3: [10, 7, 8, 11, 13, 12] cost=26
+
+10 -> 13
+ Path 1: [10, 11, 13] cost=10
+ Path 2: [10, 9, 12, 13] cost=12
+ Path 3: [10, 7, 8, 11, 12, 14, 13] cost=33
+
+10 -> 14
+ Path 1: [10, 11, 13, 14] cost=14
+ Path 2: [10, 9, 12, 14] cost=17
+ Path 3: [10, 7, 6, 14] cost=30
+
+11 -> 12
+ Path 1: [11, 12] cost=3
+ Path 2: [11, 13, 12] cost=7
+ Path 3: [11, 10, 9, 12] cost=15
+
+11 -> 13
+ Path 1: [11, 13] cost=5
+ Path 2: [11, 12, 13] cost=5
+ Path 3: [11, 10, 9, 12, 14, 13] cost=26
+
+11 -> 14
+ Path 1: [11, 13, 14] cost=9
+ Path 2: [11, 12, 14] cost=10
+ Path 3: [11, 6, 14] cost=31
+
+12 -> 13
+ Path 1: [12, 13] cost=2
+ Path 2: [12, 11, 13] cost=8
+ Path 3: [12, 14, 13] cost=11
+
+12 -> 14
+ Path 1: [12, 13, 14] cost=6
+ Path 2: [12, 14] cost=7
+ Path 3: [12, 11, 6, 14] cost=34
+
+13 -> 14
+ Path 1: [13, 14] cost=4
+ Path 2: [13, 12, 14] cost=9
+ Path 3: [13, 11, 6, 14] cost=36
+
